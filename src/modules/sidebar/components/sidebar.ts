@@ -62,7 +62,7 @@ export class SuiSidebar {
     constructor(private _renderer:Renderer2, private _element:ElementRef) {
         this.service = new SidebarService();
         // We set the default here as well to force the classes to update.
-        this.transition = SidebarTransition.Uncover;
+        this.transition = SidebarTransition.Overlay;
         this.direction = SidebarDirection.Left;
 
         setTimeout(() => this.updateDimensions());
