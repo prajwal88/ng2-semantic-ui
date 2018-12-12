@@ -80,7 +80,7 @@ export class SidebarService {
         this.width = 260;
         this.height = 0;
 
-        this.transition = SidebarTransition.Uncover;
+        this.transition = SidebarTransition.Overlay;
     }
 
     public setVisibleState(isVisible:boolean):void {
